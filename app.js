@@ -138,7 +138,7 @@ function lösche_Grund() {
 live.innerHTML = '';
 }
 function Home() {
-  window.location.href = "Homepage.html";
+  window.location.href = "https://js-evhos.github.io/";
 }
 function Profil() {
   const Profil_Name = ["EVHOS", "EVHOS_TUTOR","EVHOS-Team","McTyp","victor42e","Programm1012"];
