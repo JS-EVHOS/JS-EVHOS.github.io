@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR-Code maker</title>
+    <link href="styleQR.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h1>QR-Code maker</h1>
+    <div id="maker-div">
+        <p id="LINK">LINK/TEXT</p>
+        <input id="input">
+        <button id="create" onclick="make()">Erstellen</button>
+        <div id="QR">
+            <div id="QR-Code"></div>
+        </div>
+    </div> 
+    <img onclick="Home()" id="Home" src="Home.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="appQR.js"></script>
+    <script src="app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.2/html2canvas.min.js"></script>
+
+</body>
+</html>

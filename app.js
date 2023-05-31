@@ -15,11 +15,13 @@ function Leiste_up() {
   const button3 = document.querySelector("#a_Menu_Button3");
   const button4 = document.querySelector("#a_Menu_Button4");
   const button5 = document.querySelector("#a_Menu_Button5");
+  const button6 = document.querySelector("#a_Menu_Button6");
   button1.remove();
   button2.remove();
   button3.remove();
   button4.remove();
   button5.remove();
+  button6.remove();
 }
 function make_Buttos_on_Leiste() {
   let Zähler = 0;
@@ -72,6 +74,15 @@ function make_Buttos_on_Leiste() {
   div_Childs.addEventListener("click", () =>{
     lösche_Grund()
     Profil()
+  })
+  div_Childs = document.createElement("button");
+  div_Childs.className = "Menu_Button";
+  div_Childs.innerText = innerText[Zähler];;
+  Zähler++;
+  div_Childs.id = "a_Menu_Button6";
+  div.appendChild(div_Childs);
+  div_Childs.addEventListener("click", () =>{
+    open_Programm();
   })
 }
 function Studio() {
@@ -176,9 +187,16 @@ function Profil() {
     input.value ='';
   })
 }
-
+function open_Programm() {
+  window.location.href = "Programme.html";
+}
+function Programm(i) {
+  if (i == 1) {
+    window.location.href = "QR-maker.html"
+  }
+}
 let have_I_got_a_Button = 0;
-const innerText = ['Scratch', 'Studios', 'Suchmaschine', 'Spiele', 'Profile',];
+const innerText = ['Scratch', 'Studios', 'Suchmaschine', 'Spiele', 'Profile', 'Programme'];
 const innerText_Game = ['Paintcarrun', 'Escape from school','Smartphone/Handy'];
 const id_Game = ["Paintcarrun", "Ve-Di-Ma","Handy"]
 const url_Game = ["https://scratch.mit.edu/projects/635022736/", "https://scratch.mit.edu/projects/630052494/","https://scratch.mit.edu/projects/632332672/"];
