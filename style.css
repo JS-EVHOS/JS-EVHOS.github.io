@@ -7,7 +7,7 @@ body {
 #h1H {
     background-color: blue;
     width: 108%;
-    height:50px;
+    height: 50px;
     margin-left: -8px;
     margin-top: -23px;
 }
@@ -16,7 +16,6 @@ h1 {
     font-family: Verdana;
     margin-left: 42%;
     text-decoration: underline;
-    
 }
 #Menu_Button {
     width: 150px;
@@ -40,7 +39,6 @@ margin-left: -8px;
     font-family: Verdana;
     margin-left: 35%;
     margin-top: 100px;
-    marign-top: 10px;
 
     
 }
@@ -344,4 +342,18 @@ h2 {
     }
     #WSP {
         font-weight: 700;
+    }
+    #QR_Maker {
+        position: absolute;
+        left: 20px;
+    }
+    #Pro{
+        color: black;
+    }
+    #QR2 {
+        width: 100px;
+        height: 100px;
+    }
+    #akuHind {
+        font-weight: 800;
     }
