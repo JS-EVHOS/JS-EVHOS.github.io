@@ -1,0 +1,56 @@
+body {
+	background-color:  lightblue;
+}
+h2 {
+	color: yellow;
+	text-decoration: underline;
+	font-family: Helvetica;
+}
+h1 {
+	color: darkblue;
+	text-decoration: underline;
+	font-family: Georgia;
+}
+#eingabe {
+	border-radius: 10px;
+	height: 10px;
+	color: darkblue;
+}
+#ISS {
+	border-radius: 10px;
+	height: 10px;
+	color: yellow;
+	box-shadow: 5px 5px 5px balck;
+}
+#Suchen {
+	background-color: darkblue;
+	color: white;
+	border-radius: 10px;
+}
+#Chatgpt {
+	color: white;
+	background-color: red;
+}
+#SucheS {
+	color: white;
+	background-color: yellow;
+	border-radius: 10px;
+}
+#ENT {
+	background-color: orange;
+	color: white;
+}
+#MeineS {
+	background-color: orange;
+	color: white;
+}
+#PapierKOR {
+	color: white;
+	background-color: orange;
+	border-radius: 10px;
+}
+#Home {
+    height: 45px;
+    width: 50px;
+	border-radius: 5px;
+}

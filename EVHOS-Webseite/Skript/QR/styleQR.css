@@ -1,0 +1,83 @@
+body {
+    font-family: Verdana;
+}
+h1 {
+    text-decoration: underline;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#maker-div {
+    width: 500px;
+    height: 250px;
+    background-color: #00009b;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+#LINK {
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#input {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#create {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    width: 150px;
+    height: 25px;
+    font-size: 15px;
+    border: none;
+}
+#QR-Code {
+    color: white;
+    position: absolute;
+    top: 170%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+#B {
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#C {
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#download {
+    background-color: red;
+    color: white;
+    border: none;
+    position: absolute;
+    top: 600px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 135px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+#Home {
+    width: 50px;
+    height: 45px;
+    border-radius: 5px;
+    margin-top: 10px;
+}

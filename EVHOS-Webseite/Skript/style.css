@@ -1,0 +1,359 @@
+:root {
+    --feld1: 5px;
+}
+body {
+    font-family: Verdana;
+}
+#h1H {
+    background-color: blue;
+    width: 108%;
+    height: 50px;
+    margin-left: -8px;
+    margin-top: -23px;
+}
+h1 {
+    color: white;
+    font-family: Verdana;
+    margin-left: 42%;
+    text-decoration: underline;
+}
+#Menu_Button {
+    width: 150px;
+    height: 120px;
+}
+#petit_feld {
+width: 108%;
+height: var(--feld1);
+background-color: #3a3a3a;
+margin-left: -8px;
+}
+.Menu_Button {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+    border: none;
+    margin-top: 17px;
+}
+#EVHOS_What {
+    width: 400px;
+    font-family: Verdana;
+    margin-left: 35%;
+    margin-top: 100px;
+
+    
+}
+h2 {
+    text-decoration: underline;
+}
+#GameFun {
+    width: 200px;
+    height: 100px;
+    background-image: url("https://uploads.scratch.mit.edu/get_image/gallery/31190963_170x100.png");
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    margin-left: 3px;
+}
+#Home {
+    width: 50px;
+    height: 45px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#QR {
+    height: 500px;
+    width: 500px;
+    margin-left: -500px;
+}
+#Game_Fun_img {
+    width: 200px;
+    height: 100px;
+    background-image: url("https://uploads.scratch.mit.edu/get_image/gallery/31190963_170x100.png");
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    margin-left: 3px;
+}
+#Game_Fun {
+    margin-top: 100px;
+}
+#EVHOS_img {
+    width: 200px;
+    height: 100px;
+    background-image: url("https://uploads.scratch.mit.edu/get_image/gallery/31534218_170x100.png");
+    background-repeat: no-repeat;
+    margin-top: -330px;
+    margin-left: 3px;
+}
+#Tutorial_img {
+    width: 200px;
+    height: 100px;
+    background-image: url("https://uploads.scratch.mit.edu/get_image/gallery/31737937_170x100.png");
+    background-repeat: no-repeat;
+    margin-top: -150px;
+    margin-left: 3px;
+}
+#Simulanten_img {
+    width: 200px;
+    height: 100px;
+    background-image: url("https://uploads.scratch.mit.edu/get_image/gallery/32105632_170x100.png");
+    background-repeat: no-repeat;
+    margin-top: -150px;
+    margin-left: 50px;
+}
+#Simulanten_p {
+    margin-left: 47px;
+}
+#Covid19_img {
+    width: 200px;
+    height: 100px;
+    background-image: url("https://uploads.scratch.mit.edu/get_image/gallery/31632848_170x100.png");
+    background-repeat: no-repeat;
+    margin-top: -150px;
+    margin-left: 100px;
+}
+#Covid19_p {
+    margin-left: 100px;
+}
+#Clock {
+    background-image: url(Phone_Clock.png);
+    background-repeat: no-repeat;
+    background-size: 510px 500px;
+    width: 500px;
+    height: 500px;
+    margin-left: 1100px;
+    margin-top: -300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 75px;
+    font-weight: 700;
+    }
+    #Projekte_img {
+        background-image: url("https://uploads.scratch.mit.edu/get_image/gallery/32430978_170x100.png");
+        background-repeat: no-repeat;
+        margin-top: 50px;
+        margin-left: -800px;
+        height: 300px;
+        width: 500px;
+        background-size: 200px 150px;
+    }
+    #Projekte_p {
+        margin-left: -740px;
+        margin-top: -150px;
+    }
+    #Lernen_img {
+        background-image: url("https://uploads.scratch.mit.edu/get_image/gallery/31777539_170x100.png");
+        background-repeat: no-repeat;
+        margin-top: -150px;
+        margin-left: -750px;
+        height: 300px;
+        width: 500px;
+        background-size: 150px 100px;
+    }
+    #Lernen_p {
+        margin-left: -740px;
+        margin-top: -190px;
+    }
+    #Ani_img {
+        background-image: url("https://uploads.scratch.mit.edu/get_image/gallery/31579788_170x100.png");
+        background-repeat: no-repeat;
+        margin-top: -150px;
+        margin-left: -725px;
+        height: 400px;
+        width: 600px;
+
+    }
+    #Ani_p {
+        margin-left: -740px;
+        margin-top: -280px;
+    }
+    #CP_img {
+        background-image: url("https://uploads.scratch.mit.edu/get_image/gallery/32430978_170x100.png");
+        background-repeat: no-repeat;
+        margin-top: -180px;
+        margin-left: -750px;
+        height: 300px;
+        width: 500px;
+        background-size: 200px 150px;
+    }
+    #CP_p {
+        margin-left: -730px;
+        margin-top: -150px;
+    }
+    #Leben_img {
+        background-image: url("https://uploads.scratch.mit.edu/get_image/gallery/31195095_170x100.png");
+        background-repeat: no-repeat;
+        margin-top: -150px;
+        margin-left: -675px;
+        height: 300px;
+        width: 500px;
+        background-size: 150px 100px;
+    }
+    #Leben_p {
+        margin-left: -710px;
+        margin-top: -175px;
+    }
+    #live_p {
+        margin-top: -500px;
+    }
+    #Game_h1 {
+        color:#ff8c00;
+        text-decoration: underline;
+    }
+    #text_hind {
+        font-weight: 700;
+    }
+    #Paintcarrun_img {
+        background-image: url("https://uploads.scratch.mit.edu/get_image/project/635022736_480x360.png");
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 200px;
+        background-size: 200px 150px;
+        margin-top: 0px;
+    }
+    #Paintcarrun_p {
+        margin-top: -50px;
+    }
+    #Ve-Di-Ma_img {
+        background-image: url("https://uploads.scratch.mit.edu/get_image/project/630052494_144x108.png");
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 200px;
+        background-size: 200px 150px;
+        margin-top: -185px;
+    }
+    #Ve-Di-Ma_p {
+        margin-top: -50px;
+    }
+    #Handy_img {
+        background-image: url("https://uploads.scratch.mit.edu/get_image/project/632332672_144x108.png");
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 200px;
+        background-size: 200px 150px;
+        margin-top: -185px;
+    }
+    #Handy_p {
+        margin-top: -50px;
+        margin-left: 10px;
+    }
+    #OGH {
+        text-decoration: underline;
+        color:#0d31f9;
+        font-size: 20px;
+    }
+    #EVHOS {
+        margin-top: 200px;
+    }
+    #EVHOS_p {
+        margin-left: 10px;
+    }
+    #SUser {
+        margin-top: 100px;
+        size: 15px;
+        border-radius: 9px;
+        border-color: blue;
+    }
+    #SUser_button {
+        color: white;
+        background-color: blue;
+        border-radius: 12px;
+        margin-left: 5px;
+    }
+    #evhos_img {
+        width: 200px;
+        height: 100px;
+        background-image: url("https://uploads.scratch.mit.edu/get_image/gallery/31534218_170x100.png");
+        background-repeat: no-repeat;
+        margin-left: 3px;
+        margin-top: 100px;
+    }
+    #ET_img {
+        width: 100px;
+        height: 100px;
+        background-size: 100px 100px;
+        background-image: url("https://cdn2.scratch.mit.edu/get_image/user/95840557_60x60.png");
+        background-repeat: no-repeat;
+        margin-left: 3px;
+        margin-top: -150px;
+    }
+    #E-T_img {
+        width: 100px;
+        height: 100px;
+        background-size: 100px 100px;
+        background-image: url("https://cdn2.scratch.mit.edu/get_image/user/default_60x60.png");
+        background-repeat: no-repeat;
+        margin-left: 3px;
+        margin-top: -150px;
+    }
+    #McTyp_img {
+        width: 100px;
+        height: 100px;
+        background-size: 100px 100px;
+        background-image: url("https://cdn2.scratch.mit.edu/get_image/user/70772792_60x60.png");
+        background-repeat: no-repeat;
+        margin-left: 3px;
+        margin-top: -150px;
+    }
+    #VH42_img {
+        width: 100px;
+        height: 100px;
+        background-size: 100px 100px;
+        background-image: url("https://cdn2.scratch.mit.edu/get_image/user/71943425_60x60.png");
+        background-repeat: no-repeat;
+        margin-left: 3px;
+        margin-top: -150px;
+    }
+    #P1012_img {
+        width: 100px;
+        height: 100px;
+        background-size: 100px 100px;
+        background-image: url("https://cdn2.scratch.mit.edu/get_image/user/101547765_60x60.png");
+        background-repeat: no-repeat;
+        margin-left: 3px;
+        margin-top: -150px;
+    }
+    #div_input {
+        margin-top: -50px;
+    }
+    #H_Bereiche {
+        margin-left: 38%;
+        font-size: 25px;
+        color:orange;
+    }
+    #PF {
+        width: 175px;
+        height: 100px;
+        border: 1px solid black;
+        border-radius: 12px;
+    }
+    #PF_p {
+        margin-left: 20px;
+    }
+    #PF_button {
+        background-color: #2121bd;
+        color: white;
+        width: 150px;
+        margin-left: 10px;
+        border-radius: 5px;
+        border: none;
+        height: 25px;
+        font-size: 15px;
+    }
+    #WSP {
+        font-weight: 700;
+    }
+    #QR_Maker {
+        position: absolute;
+        left: 20px;
+    }
+    #Pro{
+        color: black;
+    }
+    #QR2 {
+        width: 100px;
+        height: 100px;
+    }
+    #akuHind {
+        font-weight: 800;
+    }
