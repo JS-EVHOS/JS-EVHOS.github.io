@@ -53,7 +53,7 @@ function make_Buttos_on_Leiste() {
   div_Childs.id = "a_Menu_Button3";
   div.appendChild(div_Childs);
   div_Childs.addEventListener("click", () =>{
-    window.location.href = "Suchmachine.html";
+    window.location.href = "Suchmaschine/Suchmachine.html";
   })
   div_Childs = document.createElement("button");
   div_Childs.className = "Menu_Button";
@@ -139,10 +139,22 @@ function Game() {
   h4.innerText = "Andere Spiele"
   h4.id = "OGH";
   live.appendChild(h4);
-  const p = document.createElement("p");
-  p.innerText = "Weitere Spiele kommen noch";
-  p.id = "WSP";
-  live.appendChild(p);
+  const Game_div1 = document.createElement("div");
+  live.appendChild(Game_div1);
+  Game_div1.addEventListener("click", () => {
+    window.location.href = "Memory/index.html";
+  })
+  const img_1 = document.createElement("img");
+  img_1.url = "https://cdn.pixabay.com/photo/2017/07/19/16/44/questions-2519654_1280.png";
+  img_1.id = "WSP";
+  Game_div1.appendChild(img_1);
+  const p_1 = document.createElement("p");
+  p_1.innerText = "Memory";
+  Game_div1.appendChild(p_1);
+  p_1.style.position = "absolute";
+  p_1.style.top = "450px";
+
+
 }
 function lösche_Grund() {
 
@@ -192,7 +204,7 @@ function open_Programm() {
 }
 function Programm(i) {
   if (i == 1) {
-    window.location.href = "QR-maker.html"
+    window.location.href = "QR/QR-maker.html"
   }
 }
 let have_I_got_a_Button = 0;

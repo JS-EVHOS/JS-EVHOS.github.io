@@ -1,0 +1,39 @@
+h1 {
+text-decoration: underline;
+font-family: Verdana;
+color: white;
+margin-left: 650px;
+}
+body {
+    background-color:#000000eb
+    
+}
+div {
+    border-color: white;
+    font-size: 100px;
+    font-family: Verdana;
+    text-align: center;
+    height: 100px; /* Setzt die Höhe des Containers auf 100 Pixel */
+    overflow: hidden; /* Schneidet den Text ab, wenn er den Container überläuft */
+    display: flex; /* Verwendet das Flexbox-Layout */
+    justify-content: center; /* Zentriert den Text horizontal */
+    align-items: center; /* Zentriert den Text vertikal */ 
+    color: rgb(156, 214, 56);   
+    margin-top: -1000px;
+}
+.Punkte {
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: Verdana;
+}
+#Versuche {
+    color: #d73024;
+    font-family: Verdana;
+    margin-top: 50px;
+}
+#Infos {
+    font-size: 30px;
+    width: 300px;
+    height: 500px;
+}
